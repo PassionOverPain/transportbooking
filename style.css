@@ -106,7 +106,28 @@ input{
     background-color: red;
  }
  #profile{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--blue);
     height: 25vh;
     width: 100%;
  }
+#pic{
+    display: block;
+    background-color: gray;
+    height: 80%;
+    width:10vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    height: 10vh;
+    width: 100%;
+}
