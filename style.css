@@ -8,6 +8,7 @@
     --yellow: #e5b407;
     --white : #d6d7d9;
     --darkblue: #0c1320;
+    text-decoration: none;
 }
 body{
     overflow-x: hidden;
@@ -102,8 +103,8 @@ input{
     text-align: center;
  }
  #booking{
-    height: 110vh;
-    width: 70vw;
+    height: 150vh;
+    width: 100vw;
     background-color:var(--blue);
  }
  #profile{
@@ -125,10 +126,20 @@ input{
     cursor: pointer;
 }
 #buttons{
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--darkblue);
-    height: 10vh;
+    height: 15vh;
     width: 100%;
+}
+ion-icon{
+    font-size: 3.1rem;
+    color: white;
+    cursor: pointer;
+}
+ion-icon:hover{
+    transform: scale(1.2);
+    color:var(--yellow);
 }
