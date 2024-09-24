@@ -54,7 +54,7 @@ section{
 }
 #questions span{
 color: var(--yellow);
-font-weight: 1000;
+font-weight:1000;
 cursor: pointer;
 }
 #LoginPage{
