@@ -94,4 +94,14 @@ input{
 
  /* --------------------------------------Booking Page Stuff --------------------------------------- */
 
- 
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ #booking{
+    height: 110vh;
+    width: 70vw;
+    background-color: red;
+ }
