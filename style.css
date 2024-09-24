@@ -105,3 +105,8 @@ input{
     width: 70vw;
     background-color: red;
  }
+ #profile{
+    background-color: var(--blue);
+    height: 25vh;
+    width: 100%;
+ }
