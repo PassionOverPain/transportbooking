@@ -18,10 +18,35 @@ section{
 #visual{
     background-color: var(--blue);
     width: 100%;
+    display: block;
+    text-align: center;
+    row-gap:  0px;
+    justify-content: center;
+    align-items: center;
+}
+#visual img{
+    margin-top: 100px;
+}
+#welcome{
+    color: var(--yellow);
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+#slogan{
+    color:white;
+    font-size: 1.3rem;
+    font-weight: normal;
 }
 #login{
     background-color:white;
     width: 100%;
+    display: block; 
+    justify-content: center;
+    align-items: center;
+}
+#Title{
+
 }
 #LoginPage{
     display: flex;
