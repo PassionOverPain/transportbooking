@@ -52,7 +52,7 @@ section{
  color: var(--blue);
  font-weight: bolder;
 }
-#questions span{
+.clickie{
 color: var(--yellow);
 font-weight:1000;
 cursor: pointer;
@@ -60,4 +60,34 @@ cursor: pointer;
 #LoginPage{
     display: flex;
     justify-content: center;
+}
+#LogInfo{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+input{
+    padding: 2px;
+    font-size: 1.3rem;
+}
+#questions{
+    margin-top: 20px;
+}
+#SignIn{
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 400px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#SignIn:hover{
+    transform: scale(1.2);
+}
+#patterns{
+    opacity: 0.2;
+    top:-20%;
+    left:80%;
 }
